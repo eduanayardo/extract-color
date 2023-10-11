@@ -4,5 +4,9 @@ Example from the [clcoding](https://twitter.com/clcoding) account (twitter), the
 Link: https://twitter.com/clcoding/status/1711620072001901050
 ![image](https://github.com/eduanayardo/extract-color/assets/868883/dcb23d11-64b7-427d-9450-9bd38047ac3e)
 
+Result with 3 types of values
+![image](https://github.com/eduanayardo/extract-color/assets/868883/9f97260b-0107-4815-83f8-175d800d5654)
+
+
 Result with hexadecimal values
 ![image](https://github.com/eduanayardo/extract-color/assets/868883/2907eb32-5565-497d-ba7e-0a93f223dd6f)
