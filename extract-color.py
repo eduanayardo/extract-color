@@ -1,7 +1,7 @@
 from PIL import Image
 img = Image.open("1.jpg")
 
-import numpy
+import numpy #as np
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
@@ -11,9 +11,10 @@ pixels = numpy.reshape(image, (w * h, d))
 
 from sklearn.cluster import KMeans
 
-n_colors = 10
+n_colors = 10 # change this to get more or fewer colors
 model = KMeans(n_clusters=n_colors, random_state=42).fit (pixels)
 palette = numpy.uint8(model.cluster_centers_)
+
 
 def rgb_to_hex(r, g, b):
      return '#{:02x}{:02x}{:02x}'.format(r, g, b)
@@ -33,5 +34,6 @@ for i in palette:
         ind = ind + 1
 print(colors)
 
+img.show()
 plt.imshow([palette])
 plt.show()
