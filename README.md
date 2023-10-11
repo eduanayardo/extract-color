@@ -1,4 +1,4 @@
-# extract-color
+# Image Color Extraction with Python
 Example from the [clcoding](https://twitter.com/clcoding) account (twitter), the code extracts the colors from an image
 
 Link: https://twitter.com/clcoding/status/1711620072001901050
