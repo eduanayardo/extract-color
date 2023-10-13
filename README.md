@@ -8,12 +8,12 @@ This Python script extracts the dominant color palette from an image and display
    ```bash
    pip install Pillow numpy matplotlib scikit-learn
 
-2. Replace "`photo.jpg`" with the path to your desired image in the following line:
+2. Replace `"photo.jpg"` with the path to your desired image in the following line:
    ```phyton
-   img = Image.open(`photo.jpg`)
+   img = Image.open(`"photo.jpg"`)
 3. Run the script:
    ```phyton
-   python color_palette_extraction.py
+   python extract-color.py
 4. The script will display the following:
   - The original image.
   - The extracted color palette in a visual format.
@@ -43,4 +43,4 @@ This Python script extracts the dominant color palette from an image and display
 
 Feel free to customize and use this script to analyze and visualize color palettes in images.
 
-*Note: Please ensure that you have the necessary image (`photo.jpg` in this example) available or replace it with the path to your preferred image.*
+*Note: Please ensure that you have the necessary image (`"photo.jpg"` in this example) available or replace it with the path to your preferred image.*
